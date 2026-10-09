@@ -1,0 +1,232 @@
+{
+  "dataset": "kd13/EngineeringConcepts-Instruct-v1",
+  "evaluation_timestamp": "2026-10-09 13:39:33",
+  "elapsed_seconds": 120.46,
+  "summary_accuracy_percentages": {
+    "domain_classification_accuracy": 100.0,
+    "difficulty_classification_accuracy": 100.0,
+    "next_token_top1_accuracy": 35.67,
+    "next_token_top5_accuracy": 57.63,
+    "instruction_token_f1_accuracy": 8.94
+  },
+  "next_token_prediction": {
+    "evaluated_target_tokens": 39879,
+    "next_token_top1_accuracy_pct": 35.67,
+    "next_token_top5_accuracy_pct": 57.63
+  },
+  "classification_benchmarks": {
+    "dataset_samples": 25875,
+    "test_split_samples": 3882,
+    "domain_classification": {
+      "baseline_majority_accuracy_pct": 14.12,
+      "model_accuracy_pct": 100.0,
+      "confidence_interval_95": [
+        100.0,
+        100.0
+      ],
+      "macro_precision_pct": 100.0,
+      "macro_recall_pct": 100.0,
+      "macro_f1_pct": 100.0,
+      "weighted_f1_pct": 100.0,
+      "per_domain_performance": {
+        "computer_engineering": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 457
+        },
+        "cyber_security": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 450
+        },
+        "data_science_aiml": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 548
+        },
+        "electrical_engineering": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 370
+        },
+        "electronics_engineering": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 367
+        },
+        "generative_agentic_ai": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 491
+        },
+        "internet_of_things": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 345
+        },
+        "mechanical_engineering": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 339
+        },
+        "modern_llms": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 515
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "computer_engineering",
+          "cyber_security",
+          "data_science_aiml",
+          "electrical_engineering",
+          "electronics_engineering",
+          "generative_agentic_ai",
+          "internet_of_things",
+          "mechanical_engineering",
+          "modern_llms"
+        ],
+        "matrix": [
+          [
+            457,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            450,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            548,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            370,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            367,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            491,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            345,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            339,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            515
+          ]
+        ]
+      }
+    },
+    "difficulty_classification": {
+      "model_accuracy_pct": 100.0,
+      "per_difficulty_performance": {
+        "easy": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 2684
+        },
+        "medium": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 789
+        },
+        "hard": {
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_score_pct": 100.0,
+          "support": 409
+        }
+      }
+    }
+  },
+  "instruction_match": {
+    "samples_evaluated": 25,
+    "token_precision_pct": 54.52,
+    "token_recall_pct": 5.01,
+    "token_f1_pct": 8.94
+  }
+}

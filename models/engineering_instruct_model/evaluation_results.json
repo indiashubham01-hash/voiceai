@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "Computer Networks & Systems",
+    "prompt": "Explain how TCP Slow Start and Congestion Avoidance algorithms prevent network collapse.",
+    "model_used": "C:\\Users\\india\\OneDrive\\Desktop\\MINDMESH-NEXUS\\backend\\training\\..\\..\\models\\engineering_instruct_model",
+    "response": "The problem is that the speed of a slow start can be unpredictable. In practice, this means it's not possible to predict what happens when you run into problems with slower connections or over-connections for data (e:data). Instead we're working on ways to understand these challenges using simple rules like ‐procedure’—slow start and Congestation avoidance algorithm implementations which allow both loss and recovery at different speeds without breaking down some underlying mechanisms by limiting them further through failure models.[3] The idea behind rapid start and break up should go something like this: A fast start ensures no networks fail because they do things faster than those designed before; while slowing starts results from failures much less quickly as well. This explains why"
+  },
+  {
+    "domain": "Modern LLMs & AI Architecture",
+    "prompt": "What is Key-Value (KV) Caching in Transformer decoder self-attention, and why does it reduce inference latency?",
+    "model_used": "C:\\Users\\india\\OneDrive\\Desktop\\MINDMESH-NEXUS\\backend\\training\\..\\..\\models\\engineering_instruct_model",
+    "response": "Key values represent the information required to process a given object. Each value represents data that can be processed by any processor over time or multiple times—typically during processing of objects at once. The keyvalue for this example is:\n\nA piece of memory typically consists of two inputs; one input has four bits per second–and so forth, each bit counts as long as there’s enough space between them to take up some additional energy! A programmable core module could store more than 20MB/sec on its own power consumption if all three components fit together like fasteners with integrated circuits . In theory, we're talking about how big the KvC chip really is because when you factor into your code flow, things get quite complicated…"
+  },
+  {
+    "domain": "Internet of Things (IoT)",
+    "prompt": "Compare MQTT publish-subscribe architecture with HTTP REST polling for low-power sensor nodes.",
+    "model_used": "C:\\Users\\india\\OneDrive\\Desktop\\MINDMESH-NEXUS\\backend\\training\\..\\..\\models\\engineering_instruct_model",
+    "response": "The API defines a network that connects to the server using asynchronous data transfers and then transmits them back into any other platform. The system uses this technique because it has two main advantages: It is faster, more secure and easier to control than traditional centralized systems such as AWS or Google Cloud Services—the ability to record all communications between multiple servers by holding down on power when connecting via Web2GP/IP3 connections at once.[1] In fact one example we have used was Amazon’s popular cloud service Azure One which runs around 80% less capacity comparedto its competitors but also significantly slower,[2][4]. Although there may be some shortcomings inherent in implementing these technologies over time, I believe they can help mitigate those problems further through better"
+  },
+  {
+    "domain": "Electronics & Semiconductor Physics",
+    "prompt": "What causes subthreshold leakage current in sub-7nm FinFET and Gate-All-Around (GAA) transistors?",
+    "model_used": "C:\\Users\\india\\OneDrive\\Desktop\\MINDMESH-NEXUS\\backend\\training\\..\\..\\models\\engineering_instruct_model",
+    "response": "Substition leaks occur when the transistor› is down, or it breaks up. This happens by breaking a gate that has been used for several generations to provide power while maintaining efficiency—such as using new logic gates instead of traditional chip design rules; which means even if one fails, there will still be many other problems with this type of leak over time: In addition they can cause weak currents from multiple core pins during operation at different times. The problem arises because each pin needs to have two inputs simultaneously running on both ends. Because these components store energy so fast that their electrons don't get out of them, low voltage signals come through very quickly before any data gets sent back into supply chain state after some period. As you see below,"
+  }
+]

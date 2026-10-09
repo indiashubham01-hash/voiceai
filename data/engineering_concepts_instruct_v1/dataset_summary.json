@@ -1,0 +1,87 @@
+{
+  "dataset_id": "kd13/EngineeringConcepts-Instruct-v1",
+  "huggingface_url": "https://huggingface.co/datasets/kd13/EngineeringConcepts-Instruct-v1",
+  "total_samples": 25875,
+  "train_samples": 23287,
+  "val_samples": 2588,
+  "columns": [
+    "domain",
+    "difficulty",
+    "topic",
+    "task_type",
+    "user",
+    "assistant",
+    "formatted_text"
+  ],
+  "domain_distribution": {
+    "data_science_aiml": 3651,
+    "modern_llms": 3435,
+    "generative_agentic_ai": 3272,
+    "computer_engineering": 3044,
+    "cyber_security": 2999,
+    "electrical_engineering": 2467,
+    "electronics_engineering": 2448,
+    "internet_of_things": 2297,
+    "mechanical_engineering": 2262
+  },
+  "difficulty_distribution": {
+    "easy": 17624,
+    "medium": 5499,
+    "hard": 2752
+  },
+  "task_type_distribution": {
+    "simple_explain": 2327,
+    "step_by_step": 2247,
+    "teacher_lesson": 1655,
+    "quick_lesson": 1649,
+    "term_meaning": 1647,
+    "common_mistakes": 1644,
+    "basic_concept": 1635,
+    "plain_english": 1617,
+    "why_it_matters": 1604,
+    "visual_intuition": 1599,
+    "engineer_teacher": 636,
+    "deep_but_clear": 561,
+    "from_basic_to_intermediate": 559,
+    "interview_ready": 554,
+    "compare_concepts": 546,
+    "concept_mechanism": 543,
+    "step_by_step_concept": 540,
+    "concept_explain": 534,
+    "how_and_tradeoffs": 519,
+    "concept_with_examples": 507,
+    "high_quality_notes": 300,
+    "bridge_to_advanced": 299,
+    "advanced_teacher": 292,
+    "rigorous_explain": 287,
+    "mechanism_level": 286,
+    "advanced_comparison": 274,
+    "assumptions_tradeoffs": 273,
+    "theory_and_tradeoffs": 263,
+    "explain_mechanism": 241,
+    "mechanism_examples": 237
+  },
+  "sample_prompts": [
+    {
+      "domain": "mechanical_engineering",
+      "difficulty": "easy",
+      "topic": "density and buoyancy",
+      "user": "Explain density and buoyancy step by step for a beginner. Include one concrete example or use case. Focus especially on plain-English intuition.",
+      "assistant_preview": "Density is a measure of how tightly mass is packed into a given volume. It is expressed as the ratio of mass to volume, \n$$\\rho = \\frac{m}{V}$$\nwith units kilograms per cubic metre (kg m⁻³). The large..."
+    },
+    {
+      "domain": "internet_of_things",
+      "difficulty": "easy",
+      "topic": "microcontrollers versus microprocessors",
+      "user": "Explain microcontrollers versus microprocessors step by step for a curious self-learner. Include one concrete example or use case. Focus especially on plain-English intuition.",
+      "assistant_preview": "Let's break this down so it actually sticks.\n\nMicrocontrollers and microprocessors are both small computers, but they serve different roles. The core idea is that a microcontroller (MCU) is a single c..."
+    },
+    {
+      "domain": "internet_of_things",
+      "difficulty": "easy",
+      "topic": "what edge computing is (concept)",
+      "user": "Teach me what edge computing is (concept) like a patient engineering teacher. Start from the big picture, then give a simple example. Focus especially on common beginner confusion. Use an example connected to an edge device if it fits naturally.",
+      "assistant_preview": "The easiest way in is to start from the core idea.\n\nEdge computing refers to processing data near the source of data generation instead of sending all information to a distant cloud server. The core i..."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "kd13/EngineeringConcepts-Instruct-v1",
+  "base_model": "distilgpt2",
+  "epochs": 1,
+  "train_samples": 120,
+  "val_samples": 30,
+  "final_train_loss": 3.5664,
+  "final_val_loss": 3.3396,
+  "final_perplexity": 28.21,
+  "elapsed_seconds": 62.24,
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.5664,
+      "val_loss": 3.3396,
+      "perplexity": 28.21,
+      "timestamp": "2026-10-09 13:30:44"
+    }
+  ],
+  "saved_model_path": "C:\\Users\\india\\OneDrive\\Desktop\\MINDMESH-NEXUS\\backend\\training\\..\\..\\models\\engineering_instruct_model"
+}

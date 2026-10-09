@@ -1,0 +1,89 @@
+{
+  "dataset_name": "Riiid Answer Correctness Prediction (EdNet)",
+  "total_interactions_analyzed": 147227,
+  "unique_students": 557,
+  "unique_questions": 11738,
+  "features": [
+    "content_id",
+    "task_container_id",
+    "prior_question_elapsed_time",
+    "prior_question_had_explanation",
+    "content_difficulty_rate",
+    "user_total_attempts",
+    "user_historical_accuracy"
+  ],
+  "best_model": "Random_Forest_DKT",
+  "best_roc_auc": 78.65,
+  "best_accuracy": 73.82,
+  "model_comparison": {
+    "Random_Forest_DKT": {
+      "accuracy": 73.82,
+      "roc_auc": 78.65,
+      "f1_score": 82.11,
+      "confusion_matrix": [
+        [
+          4040,
+          5460
+        ],
+        [
+          2250,
+          17696
+        ]
+      ]
+    },
+    "Logistic_Regression": {
+      "accuracy": 73.75,
+      "roc_auc": 78.18,
+      "f1_score": 82.02,
+      "confusion_matrix": [
+        [
+          4084,
+          5416
+        ],
+        [
+          2314,
+          17632
+        ]
+      ]
+    },
+    "Decision_Tree": {
+      "accuracy": 73.42,
+      "roc_auc": 78.09,
+      "f1_score": 81.5,
+      "confusion_matrix": [
+        [
+          4383,
+          5117
+        ],
+        [
+          2710,
+          17236
+        ]
+      ]
+    },
+    "Naive_Bayes": {
+      "accuracy": 71.34,
+      "roc_auc": 73.25,
+      "f1_score": 80.11,
+      "confusion_matrix": [
+        [
+          4008,
+          5492
+        ],
+        [
+          2948,
+          16998
+        ]
+      ]
+    }
+  },
+  "feature_importances": {
+    "content_id": 0.0388,
+    "task_container_id": 0.0425,
+    "prior_question_elapsed_time": 0.0251,
+    "prior_question_had_explanation": 0.0126,
+    "content_difficulty_rate": 0.7129,
+    "user_total_attempts": 0.0392,
+    "user_historical_accuracy": 0.1289
+  }
+}
